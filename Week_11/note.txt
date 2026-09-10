@@ -1,0 +1,23 @@
+จะรู้ได้ไงว่านี่คือ vertext shader กับ fagment shader
+ถ้า in เป้นส่วนนึงของ varying จะเป็น vertext
+ถ้า in ใน attribrute เป้นส่วนนึงของ vertext
+
+คลอลิไฟเออร์คือไรไว้ทำอะไร
+
+คลอลิไฟเออร์มี 3 แบบ
+-uniform รับข้อมูลที่มีค่าคงที่ เช่น ตำแหน่งของแสง
+-attribrute
+-varying
+
+จะรู้ได้ไงว่าน่คือการคำนวนแสงที่ world space
+- ต้องผ่าน model transformation
+
+eye space จะต้องผ่านการ View transformation
+ลักษณะเด่นของ eye space 
+- Eye position is at origin (0,0,0)
+
+ข้อสอบปลายภาค 
+gouraund shadeing หน้า 17
+- bilinear interpelation02
+
+อย่าลืมแปลงหน่วยเป็น radias
